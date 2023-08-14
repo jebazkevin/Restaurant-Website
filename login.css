@@ -1,0 +1,85 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffffff;
+  }
+  
+  .main-container {
+    display: flex;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+ 
+  
+  .login-page {
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-background {
+    flex-basis: 75%;
+    height: 100vh;
+    background: url(image/login-background.jpg);
+  }
+  
+  .login-form {
+    flex-basis: 25%;
+    padding: 20px;
+    
+  }
+  
+  .app-logo {
+    margin: 0 auto;
+    width: 60%;
+  }
+  
+  .login-form {
+    margin-top: 20px;
+    color: rgb(252, 252, 252);
+  }
+  
+  .form-field {
+    margin-top: 15px;
+    color: rgb(22, 215, 222);
+  }
+  
+  .form-field input {
+    width: calc(100% - 14px);
+    padding: 16px 2px 16px 10px;
+    font-size: 14px;
+    border: 1px solid #d8e712;
+  }
+  
+  .login-form span {
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .login-form .link {
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .app-button {
+    width: 75%;
+    padding: 16px;
+    font-size: 16px;
+    background: #718500;
+    color: white;
+    border: 2px solid yellow;
+    border-radius: 40%;
+    text-align: center;
+    margin-left: 30px;
+  }
+  
+  /* END --  LOGIN STYLES */
